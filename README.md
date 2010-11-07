@@ -41,8 +41,9 @@ Calculations
 
 ### How are reputations calculated?
 
-A computer algorithm automatically calculates effective reputations using a routine which recursively redistributes the points awarded until the model stabilizes, yielding an average rating weighted by each member's influence.
-How is influence calculated?
+An algorithm automatically calculates effective reputations using a routine which recursively redistributes the points awarded until the model stabilizes, yielding an average rating weighted by each member's influence.
+
+### How is influence calculated?
 
 Influence reflects how much weight a member's opinion carries. This is calculated from the reputation such that in a community of N members the voting weight is allocated as:
 
