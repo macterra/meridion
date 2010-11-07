@@ -45,9 +45,11 @@ A computer algorithm automatically calculates effective reputations using a rout
 How is influence calculated?
 
 Influence reflects how much weight a member's opinion carries. This is calculated from the reputation such that in a community of N members the voting weight is allocated as:
+
 - Level 9 voting weight N
 - Level 5 voting weight 1
 - Level 1 voting weight 1/N
+
 The exact formula to calculate an influence from a reputation R is e^(ln(N)*2*(R-5)/(9-1)).
 
 ### How is equity calculated?
